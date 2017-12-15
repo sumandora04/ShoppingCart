@@ -178,7 +178,11 @@ public class Home extends AppCompatActivity implements SearchView.OnQueryTextLis
                                     // items.add(new Items(productName,price));
                                     productName.add(product_Name);
                                     productPrice.add(product_Price);
+                                    
+                                    //need this productId in the DisplayDatabase.java 
                                     productId.add(product_id);
+                                    
+                                    
                                     productImageUrl.add(imageUrl);
 
 
